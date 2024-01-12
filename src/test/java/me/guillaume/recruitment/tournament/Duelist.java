@@ -37,11 +37,11 @@ public abstract class Duelist {
     }
     public void engage(Duelist him){
         while (this.hitPoints() > 0 && him.hitPoints() > 0){
-            him.loseHp(this.damage(),this.weapon.getName());
+            him.loseHp(this.damage(),this.weapon.getEffect());
             if(him.hitPoints() == 0){
                 break;
             }
-            this.loseHp(him.damage(),him.weapon.getName());
+            this.loseHp(him.damage(),him.weapon.getEffect());
         }
     }
 }

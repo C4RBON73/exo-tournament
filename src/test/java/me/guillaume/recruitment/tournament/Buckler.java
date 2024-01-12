@@ -14,7 +14,7 @@ public class Buckler {
     }
 
     public void Hit(String str) {
-        if(str.equals("Axe")) {
+        if(str.equals("Buckler-Breaker")) {
             this.hp -= 1;
         }
     }
