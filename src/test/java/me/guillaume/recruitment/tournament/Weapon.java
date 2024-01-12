@@ -11,4 +11,8 @@ public class Weapon {
     public int getDamage(){
         return dmg;
     }
+
+    public String getName() {
+        return name;
+    }
 }
