@@ -9,6 +9,9 @@ public class Highlander extends Duelist{
         if (str.equals("buckler")){
             this.setBuckler();
         }
+        if (str.equals("armor")){
+            this.setArmor();
+        }
         return this;
     }
 }
